@@ -3,6 +3,6 @@ from . import views #importando a pasta livro
 
 urlpatterns = [
 
-    path('cadastrar/', views.cadastrar)
+    path('home/', views.home, name='home')
 
 ]
